@@ -15,6 +15,7 @@ public class Implicit {
     driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
     driver.findElement(By.cssSelector("input[name='q']")).sendKeys("javatpoint");
     driver.findElement(By.xpath(("(//input[@type='submit'])[3]"))).click();
+driver.quit();
 	}
 
 }
