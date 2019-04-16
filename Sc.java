@@ -24,3 +24,4 @@ package com.sc;
 				
 			}
 }
+    driver.quite();
